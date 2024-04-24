@@ -6,7 +6,7 @@ name: Python application
 on:
   workflow_dispatch: 
   push:
-  # 当对分支main进行push操作的时候，这个工作流就被触发了
+  # 当对分支main进行push操作的时候，这个工作流就被触发了11
     branches: [ main ]
   pull_request:
   #只运行特定分支main
